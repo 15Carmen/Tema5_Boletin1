@@ -15,5 +15,28 @@ public class ejercicio8 {
             numeros[i] = (int) (Math.random()*100+1);
             System.out.print(numeros[i] + " ");
         }
+
+        System.out.println();
+
+        for (int i = 0; i < cuadrados.length; i++) {
+            for (int valor:numeros) {
+                valor= (int) Math.pow(numeros[i], 2);
+                cuadrados[i]=valor;
+            }
+            System.out.print(cuadrados[i] + " ");
+
+        }
+
+        System.out.println();
+
+        for (int i = 0; i < cubos.length; i++) {
+            for (int valor2:numeros) {
+                valor2= (int) Math.pow(numeros[i], 3);
+                cubos[i]=valor2;
+            }
+            System.out.print(cubos[i] + " ");
+
+        }
+
     }
 }
