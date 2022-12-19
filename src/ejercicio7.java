@@ -16,7 +16,7 @@ public class ejercicio7 {
             tabla[i] = sc.nextDouble();
         }
 
-        for (int i = tabla.length-1; i >= 0; i--) {
+        for (int i = tabla.length - 1; i >= 0; i--) {
             System.out.print(tabla[i] + " || ");
         }
     }

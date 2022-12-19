@@ -8,20 +8,20 @@ public class ejercicio10 {
      */
 
     public static void main(String[] args) {
-        int [] tabla = new int[100];
+        int[] tabla = new int[100];
         int posicion = 0;
 
         Scanner sc = new Scanner(System.in);
 
-        for (int i=0; i<tabla.length; i++){
-            tabla[i] = (int) (Math.random()*10+1);
+        for (int i = 0; i < tabla.length; i++) {
+            tabla[i] = (int) (Math.random() * 10 + 1);
             System.out.print(tabla[i] + " ");
         }
 
         System.out.println();
-        while (posicion!=101){
+        while (posicion != 101) {
             System.out.println("Introduzca que posicion del array desea ver: ");
-            posicion= sc.nextInt();
+            posicion = sc.nextInt();
 
             System.out.println(Arrays.toString(new int[]{tabla[posicion]}));
         }

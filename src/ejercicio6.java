@@ -16,10 +16,10 @@ public class ejercicio6 {
             tabla[i] = sc.nextInt();
         }
 
-        for (int valor:tabla) {
-            if (valor%2==0){
+        for (int valor : tabla) {
+            if (valor % 2 == 0) {
                 System.out.println(valor + " par");
-            }else {
+            } else {
                 System.out.println(valor + " impar");
             }
         }

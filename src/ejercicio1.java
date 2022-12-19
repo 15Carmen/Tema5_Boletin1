@@ -4,11 +4,12 @@ public class ejercicio1 {
      */
 
     public static void main(String[] args) {
-        int [] tabla = new int[10];
+        //Declaramos las variables
+        int[] tabla = new int[10]; //Variable array de int de tamaño 10
 
-        for (int i=0; i<tabla.length; i++){
-            tabla[i] = (int) (Math.random()*100+1);
-            System.out.print(tabla[i] + " ");
+        for (int i = 0; i < tabla.length; i++) {        //Inicializamos el bucle en 0, lo finalizamos en el tamaño del array (10) y lo incrementamos en 1
+            tabla[i] = (int) (Math.random() * 100 + 1); //Introducimos dentro del array previamente declarado un numero random comprendido entre 1 y 100
+            System.out.print(tabla[i] + " ");           //Mostramos el array por consola
         }
 
     }

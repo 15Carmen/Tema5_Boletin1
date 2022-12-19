@@ -15,18 +15,17 @@ public class ejercicio9 {
 
         System.out.println("Introduzca la temperatura media de cada mes: ");
         for (int i = 0; i < 12; i++) {
-            diagrama[i]= sc.nextInt();
+            diagrama[i] = sc.nextInt();
         }
 
         System.out.println();
         System.out.println("--Diagrama de temperaturas--");
-        for (int valor:diagrama) {
+        for (int valor : diagrama) {
             for (int i = 0; i < valor; i++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-
 
 
     }
